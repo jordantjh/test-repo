@@ -1,0 +1,42 @@
+module multiplier_8(
+					input[7:0] S,
+					input Clk, Reset, Run, ClearA_LoadB,
+					output[6:0] AhexU, AhexL, BhexU, BhexL,
+					output[7:0] Aval, Bval,
+					output X);
+
+					
+		logic last_bit_B;
+		logic ClearXandA;
+		logic load_B_register;
+		logic Shift_XAB;
+		logic Addition,Subtraction;
+		logic Xout;
+		logic Bvalue,Avalue;
+		logic [8:0]Adder_out;
+		assign B_val = Bvalue;
+		assign A_val = Avalue;
+					
+		control control_unit (.Clk(Clk), .Reset(Reset), .Run(Run), .ClearA_LoadB(ClearA_LoadB), .M(last_bit_B),
+										.ClearXA(ClearXandA), .LdB(load_B_register),.Shift(Shift_XAB), .AddS(Addition),
+										.Subtract(Subtraction));
+						
+	reg_16 a_and_b ( .Clk(Clk) , .Reset(Reset) , .Ld_B(load_B_register) , .Shift_En(Shift_XAB), .Shift_In(Xout),
+							.Ld_A(Addition), .Ain(Adder_out[7:0]), .Bin(S), .Shift_Out(Last_bit_B), .Aout(Avalue),
+							.Bout(Bvalue) );
+			
+	ADD_SUB9 adder (.A(Avalue), .B(S), .Subtract(Subtraction), .S(Adder_out));		
+				
+	Xreg x_register(.Clk(Clk), .Shift(Shift_XAB) , .Reset(ClearXandA), .A9(Adder_out[8]) , .X(Xout));
+	
+	Hexdriver A_hex_U ( .In0(Avalue(7:4), .Out0(AhexU)));
+	
+	Hexdriver A_hex_L ( .In0(Avalue(3:0), .Out0(AhexL)));
+	
+	Hexdriver B_hex_U ( .In0(Bvalue(7:4), .Out0(BhexU)));
+	
+	Hexdriver B_hex_L ( .In0(Bvalue(3:0), .Out0(BhexL)));
+	
+	
+					
+endmodule

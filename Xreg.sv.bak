@@ -1,0 +1,16 @@
+module Xreg (
+			input Clk, Shift, Reset, A9, //9th bit = Cout
+			output X
+			);
+			
+	always_ff @ (posedge Clk)
+	begin
+		if(Reset)
+			X <= 1'b0;
+		else
+			if(Shift)
+				X <= X;
+			else
+				X <= A9;
+	end
+endmodule

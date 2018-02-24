@@ -1,0 +1,23 @@
+
+State Machine - |multiplier_8_2|control:control_unit|curr_state
+Name curr_state.HOLD curr_state.SUBT curr_state.ADDS7 curr_state.ADDS6 curr_state.ADDS5 curr_state.ADDS4 curr_state.ADDS3 curr_state.ADDS2 curr_state.ADDS1 curr_state.SHIFT8 curr_state.SHIFT7 curr_state.SHIFT6 curr_state.SHIFT5 curr_state.SHIFT4 curr_state.SHIFT3 curr_state.SHIFT2 curr_state.SHIFT1 curr_state.PRERUN curr_state.CLRA_LDB curr_state.RESET 
+curr_state.RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+curr_state.CLRA_LDB 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+curr_state.PRERUN 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+curr_state.SHIFT1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+curr_state.SHIFT2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+curr_state.SHIFT3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+curr_state.SHIFT4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+curr_state.SHIFT5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+curr_state.SHIFT6 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+curr_state.SHIFT7 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+curr_state.SHIFT8 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS4 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS5 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS6 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.ADDS7 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.SUBT 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.HOLD 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

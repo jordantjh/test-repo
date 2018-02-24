@@ -1,0 +1,253 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/simulation/modelsim
+vADD_SUB9
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1518747289
+!i10b 1
+!s100 XHK0X_dhfEEF51_BVD>e70
+Izg=3_:3^JT6DTXkEJ6[Vh1
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 ADD_SUB9_sv_unit
+S1
+R0
+w1518744823
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/ADD_SUB9.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/ADD_SUB9.sv
+L0 1
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1518747289.760000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/ADD_SUB9.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/ADD_SUB9.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2}
+n@a@d@d_@s@u@b9
+vcontrol
+R1
+R2
+!i10b 1
+!s100 PYmfB[6IfL8;eMZXM51AO2
+IJ04XARej?4zT6C0V[>0Rj1
+R3
+!s105 Control_sv_unit
+S1
+R0
+w1518742497
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1518747289.656000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv|
+!i113 1
+R5
+R6
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 NBeoV=OC9^1OUHn5b;DO00
+I95J18=?3571MRh1SzT>E@3
+R3
+!s105 full_adder_sv_unit
+S1
+R0
+w1518730030
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/full_adder.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/full_adder.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.559000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/full_adder.sv|
+!i113 1
+R5
+R6
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 UH7P[dTK1gbKnd]=kl[zQ3
+I6FN]cbLJAYe_2nWXC>;WU2
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+Z7 w1518703301
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/HexDriver.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.456000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/HexDriver.sv|
+!i113 1
+R5
+R6
+n@hex@driver
+vmultiplier_8_2
+R1
+R2
+!i10b 1
+!s100 4@PhgnSWELa?HR]2c7UIT3
+IBIKN6a^mI5PheCkL0C`YB1
+R3
+!s105 multiplier_8_2_sv_unit
+S1
+R0
+w1518747017
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.354000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv|
+!i113 1
+R5
+R6
+vreg_16
+R1
+R2
+!i10b 1
+!s100 AEH5KHFST0n:g]5Q@TPW_0
+Ie2;m;V0;Sa5Fn:]bmWK`a1
+R3
+!s105 reg_16_sv_unit
+S1
+R0
+w1518738561
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.963000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv|
+!i113 1
+R5
+R6
+vreg_4
+R1
+R2
+!i10b 1
+!s100 B11o_2EVXEgDX1^Dadnh>3
+I]lCgEXin>E5JD;n0ZXJ032
+R3
+!s105 reg_4_sv_unit
+S1
+R0
+R7
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_4.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.250000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_4.sv|
+!i113 1
+R5
+R6
+vreg_8
+R1
+R2
+!i10b 1
+!s100 PnddhXJ^Dz=0b67MNE=6?0
+IdE5l3YS]598BWn8a]bDlK3
+R3
+!s105 reg_8_sv_unit
+S1
+R0
+w1518733203
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.863000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv|
+!i113 1
+R5
+R6
+vtest_bench
+R1
+!s110 1518747290
+!i10b 1
+!s100 RL;ZQ0hbCQnjhl<>@nQ6k3
+I6WbGc9`0JO6n;U^F@F14O3
+R3
+!s105 test_bench_sv_unit
+S1
+R0
+w1518743891
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/test_bench.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/test_bench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747290.062000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/test_bench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/test_bench.sv|
+!i113 1
+R5
+R6
+vXreg
+R1
+R2
+!i10b 1
+!s100 m2lmBOMzJgk`ECnQUnXma3
+Ih;CiLWLkbKg@LTEUFKZei0
+R3
+!s105 Xreg_sv_unit
+S1
+R0
+w1518730074
+8C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Xreg.sv
+FC:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Xreg.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1518747289.133000
+!s107 C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Xreg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2|C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Xreg.sv|
+!i113 1
+R5
+R6
+n@xreg

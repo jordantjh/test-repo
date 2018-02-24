@@ -1,0 +1,177 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do multiplier_8_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Xreg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Xreg.sv 
+# -- Compiling module Xreg
+# 
+# Top level modules:
+# 	Xreg
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_4.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_4.sv 
+# -- Compiling module reg_4
+# 
+# Top level modules:
+# 	reg_4
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv 
+# -- Compiling module multiplier_8_2
+# 
+# Top level modules:
+# 	multiplier_8_2
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/full_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/ADD_SUB9.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/ADD_SUB9.sv 
+# -- Compiling module ADD_SUB9
+# 
+# Top level modules:
+# 	ADD_SUB9
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv 
+# -- Compiling module reg_8
+# 
+# Top level modules:
+# 	reg_8
+# End time: 20:14:49 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:49 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv 
+# -- Compiling module reg_16
+# 
+# Top level modules:
+# 	reg_16
+# End time: 20:14:50 on Feb 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/mohit/Google\ Drive/UIUC\ Coursework/SP18/ECE\ 385/labs/lab5/multiplier_8_2 {C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/test_bench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 20:14:50 on Feb 15,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2" C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/test_bench.sv 
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+# End time: 20:14:50 on Feb 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  test_bench
+# vsim -gui "+altera" -l msim_transcript -do "multiplier_8_2_run_msim_rtl_verilog.do" 
+# Start time: 20:14:50 on Feb 15,2018
+# Loading sv_std.std
+# Loading work.test_bench
+# Loading work.multiplier_8_2
+# Loading work.control
+# Loading work.reg_16
+# Loading work.reg_8
+# Loading work.reg_4
+# Loading work.ADD_SUB9
+# Loading work.full_adder
+# Loading work.Xreg
+# Loading work.HexDriver
+# ** Warning: (vsim-3017) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv(39): [TFMPC] - Too few port connections. Expected 11, found 10.
+# 
+#         Region: /test_bench/mult/a_and_b
+# ** Warning: (vsim-3722) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv(39): [TFMPC] - Missing connection for port 'Shift_Out'.
+# 
+# ** Warning: (vsim-3015) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv(10): [PCDPC] - Port size (1) does not match connection size (32) for port 'Reset'. The port definition is at: C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv(1).
+# 
+#         Region: /test_bench/mult/a_and_b/shift_reg_B
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+# ** Warning: (vsim-8315) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv(31): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv(31): No condition is true in the unique/priority if/case statement.
+# 
+do wave.do
+restart
+# Loading sv_std.std
+# Loading work.test_bench
+# Loading work.multiplier_8_2
+# Loading work.control
+# Loading work.reg_16
+# Loading work.reg_8
+# Loading work.reg_4
+# Loading work.ADD_SUB9
+# Loading work.full_adder
+# Loading work.Xreg
+# Loading work.HexDriver
+# ** Warning: (vsim-3017) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv(39): [TFMPC] - Too few port connections. Expected 11, found 10.
+# 
+#         Region: /test_bench/mult/a_and_b
+# ** Warning: (vsim-3722) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/multiplier_8_2.sv(39): [TFMPC] - Missing connection for port 'Shift_Out'.
+# 
+# ** Warning: (vsim-3015) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_16.sv(10): [PCDPC] - Port size (1) does not match connection size (32) for port 'Reset'. The port definition is at: C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/reg_8.sv(1).
+# 
+#         Region: /test_bench/mult/a_and_b/shift_reg_B
+run
+# ** Warning: (vsim-8315) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv(31): No condition is true in the unique/priority if/case statement.
+# 
+# ** Warning: (vsim-8315) C:/Users/mohit/Google Drive/UIUC Coursework/SP18/ECE 385/labs/lab5/multiplier_8_2/Control.sv(31): No condition is true in the unique/priority if/case statement.
+# 
+# End time: 20:56:56 on Feb 15,2018, Elapsed time: 0:42:06
+# Errors: 0, Warnings: 10
